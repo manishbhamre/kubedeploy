@@ -29,6 +29,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: imagename
+        image: localhost:9001/repository/dockerspace/nginx-for-kubernetes:imagetag
         ports:
         - containerPort: 80
